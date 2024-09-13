@@ -23,5 +23,6 @@ jobs:
     steps:
       - name: Run a Windows Command
         run: Write-Output "Windows string"
-      - name: Error step
-        run: doesntexist
+      #example of error
+      # - name: Error step
+      #   run: doesntexist
