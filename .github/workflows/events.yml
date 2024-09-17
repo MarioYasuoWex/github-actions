@@ -10,7 +10,7 @@ jobs:
         steps:
             - run: |
                 echo $GITHUB_SHA
-                echo $GITHUB_REF
+                echo $GITHUB_REFd
             - uses: actions/checkout@v4.1.7
 
   
