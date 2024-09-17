@@ -1,5 +1,8 @@
 name: Repo Events
-on: [push, pull_request, issues]
+on: 
+    push: 
+    pull_request:
+        types: [opened, synchronize, reopened, assigned]
 
 jobs:
     checkout-test:
